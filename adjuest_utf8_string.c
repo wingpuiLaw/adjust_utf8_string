@@ -30,7 +30,7 @@ U8* adjust_end_of_utf8(U8* source, U8 lenth){
 			}
 			else{  *p = 0;  return source;  }
 		}
-		else  *p = 0;
+		else{  *p = 0;  return source;  }
 	}
 	return source;
 }
