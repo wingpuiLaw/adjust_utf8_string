@@ -1,7 +1,6 @@
 U8* adjust_end_of_utf8(U8* source, U8 lenth){
-	U8 *p = source;
-	U8 i = 0;
-	for (U8 i = 0; i < lenth; ){
+	U8 *p = source, i = 0;
+	while(i < lenth){
 		if (*p == 0)  return source;
 		if (*p >= 0xF0){
 			if (i + 4 < lenth){
