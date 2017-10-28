@@ -38,10 +38,10 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 # file structrue
 .
-├── build           # Compiled files (alternatively `dist`)
-├── docs            # Documentation files (alternatively `doc`)
-├── src             # Source files (alternatively `lib` or `app`)
-├── test            # Automated tests (alternatively `spec` or `tests`)
-├── tools           # Tools and utilities
+├── build     # Compiled files (alternatively `dist`)
+├── docs      # Documentation files (alternatively `doc`)
+├── src       # Source files (alternatively `lib` or `app`)
+├── test      # Automated tests (alternatively `spec` or `tests`)
+├── tools     # Tools and utilities
 ├── LICENSE
 └── README.md
