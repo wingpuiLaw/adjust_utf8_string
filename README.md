@@ -1,9 +1,7 @@
-## adjust_utf8_string
+# adjust_utf8_string
+This project may be called code better and can be adjusted to the end of the string encoded in utf8 (65001).
 
-This project, which might be called code better, can be adjusted to the end of a string encoded in utf8 (65001).
-The reason I'm writing this code is that I used to take a string that was truncated when I took the data from mysql.
+### The reason I wrote this code is that the string I used before was truncated when I got the data from mysql.
 
-# file structrue
-.
-├── adjust_utf8_string.c     # only this one
-└── README.md
+## file structrue
+- adjust_utf8_string.c     # only one file about the project
